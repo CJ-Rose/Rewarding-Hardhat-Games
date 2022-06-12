@@ -106,3 +106,7 @@ Here's some hints:
 Use https://emn178.github.io/online-tools/keccak_256.html
 Use https://docs.ethers.io/v5/api/providers/provider/#Provider-getStorageAt
 Remember to deploy each contract as you go and update the scripts with the new contract addresses! Good luck!
+
+7. Claim your reward.
+When you complete each challenge, your win will be recorded on the reward contract, which has already been deployed and holds a reward for you to collect. Do not re-deploy Reward.sol. Your reward will be sent to your wallet when you call the rewardMe() function by running:
+npx hardhat run scripts/reward.js, without changing anything in that file.
