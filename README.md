@@ -1,4 +1,4 @@
-# Hardhat-Games-Reward 
+# Rewarding-Hardhat-Games
 
 Requirements:
 MetaMask: Browser extension wallet that provides key storage and secure account log-in as well as acts as a JSON-RPC gateway.
